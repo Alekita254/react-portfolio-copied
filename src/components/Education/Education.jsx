@@ -32,21 +32,19 @@ class Education extends Component {
                     > */}
                   <article className={classes.timeline_entry}>
                     <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`}>
-                      <MdWork />
+                      <MdWork/>
                     </div>
                     <div className={classes.label}>
                       <h2>
-                        Experience <span>July(2021)-Present</span>
+                        Script Writter <span>Oct(2023)-Present</span>
                       </h2>
                       <p>
-                        I am currently working as <b>Software Developer Engineer</b> at{' '}
-                        <a target='_blank' href='https://www.springworks.in/'>
-                          <b>Springworks</b>
+                        I am currently working as <b> a freelance </b> at{' '}
+                        <a target='_blank' href='https://www.crealon.com/'>
+                          <b>CREALEON</b>
                         </a>{' '}
                         <i>
-                          (previously Springrole and Springworks is a HR technology startup that is
-                          building tools and products to simplify recruiting and help organizations
-                          engage and retain their employees)
+                          (previously Is a Leading Creative Media Publishing Company)
                         </i>{' '}
                         and boosting my professional skills.
                       </p>
@@ -61,62 +59,52 @@ class Education extends Component {
                       initiallyVisible={true}
                     > */}
                   <article className={classes.timeline_entry}>
-                    <div className={classes.timeline_icon}>
-                      <MdSchool />
+                    <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`}>
+                      <MdWork/>
                     </div>
                     <div className={classes.label}>
                       <h2>
-                        Undergraduation at SLIET <span>2017-2021</span>
+                        Freelancer <span>Nov(2020)-Present</span>
                       </h2>
                       <p>
-                        I completed my undergraduation in CSE (Computer Science and Engineering)
-                        from <a href='http://sliet.ac.in/'>SLIET</a> with overall 82.71%.
+                        Content creating;articles,emails,landing pages,social media ads and newsletters.
                       </p>
+                      <p>Conducting keywords research to make pages rank higher on search engines.</p>
+                      <p>Conducting research on an assigned topic.</p>
                     </div>
                   </article>
-                  {/* </ScrollAnimation> */}
-                  {/* <ScrollAnimation
-                      offset={0}
-                      animateIn='fadeInLeft'
-                      duration={2.4}
-                      animateOnce={true}
-                      initiallyVisible={true}
-                    > */}
                   <article className={classes.timeline_entry}>
-                    <div className={`${classes.timeline_icon} ${classes.timeline_icon_2}`}>
-                      <FaSchool />
+                    <div className={classes.timeline_icon}>
+                      <MdWork/>
+                    </div>
+                    <div className={classes.label}>
+                      <h2>Marketing Consultant <span> 2018 - 2020 </span></h2>
+                      <p>Created and executed digital marketing strategies and content for clients.</p>
+                      <p>Achieved all set marketing targets.</p>
+                      <p>Focused on analytics and measurement, conversion optimization, lead generation, and content
+                        marketing.</p>
+                    </div>
+
+                  </article>
+                  <article>
+                    <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`}>
+                      <MdSchool/>
                     </div>
                     <div className={classes.label}>
                       <h2>
-                        Higher Education <span>2014-2016</span>
+                        Undergraduate at UCLA <span>2011-2013</span>
                       </h2>
                       <p>
-                        I have completed my higher education from HKIS with major subjects as
-                        Physics,Chemistry & Maths with 85% merit in CBSE board.{' '}
+                        I completed my undergraduate in Business Admnistration (BBA, Banking, Corporate, Finance and
+                        Security Law)
+                        from <a href='http://ucla.edu'>UCLA</a> with second class honors.
                       </p>
-                    </div>
-                  </article>
-                  {/* </ScrollAnimation> */}
-
-                  {/* <ScrollAnimation
-                      offset={0}
-                      animateIn='fadeInLeft'
-                      duration={2.4}
-                      animateOnce={true}
-                      initiallyVisible={true}
-                    > */}
-                  <article>
-                    <div className={`${classes.timeline_icon} ${classes.timeline_icon_4}`}>
-                      <MdWork />
-                    </div>
-                    <div className={classes.label}>
-                      <h2>Internship</h2>
-                      <p>Completed one month Internship in React Js with Internity Foundation</p>
                     </div>
                     <div className={classes.timeline_entry_inner}>
                       <div className={classes.timeline_icon_3 || classes.color_none}></div>
                     </div>
                   </article>
+
                   {/* </ScrollAnimation> */}
                 </div>
               </div>

@@ -31,9 +31,9 @@ class App extends Component {
           </div>
           <div className='main'>
             <CarouselImages />
-            <Projects />
             <About />
             <Interest />
+            <Projects />
             <Education />
           </div>
         </div>
