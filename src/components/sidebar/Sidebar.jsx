@@ -71,10 +71,15 @@ export default function Sidebar() {
           target='_blank'
           className='fa fa-envelope'
         ></a>
-        &nbsp;charanstarioncontent@gmail.com
+        &nbsp;hello@charanstarion.com
       </p>
 
       <ul className='sidebar-nav'>
+          <li className='sidebar-nav-items'>
+              <Link smooth to='/#contact' className='links'>
+                  Contact Me
+              </Link>
+          </li>
         <li className='sidebar-nav-items'>
           <Link smooth to='/#projects' className='links'>
             Projects

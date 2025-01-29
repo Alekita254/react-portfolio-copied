@@ -12,8 +12,8 @@ export default function Interest() {
         <div className={classes.web}>
           <h3>SEO Writing</h3>
           <p>
-            Content Writing is all about crafting compelling content that appeals to the audience and drives conversion.
-            And that’s precisely what I do!
+            SEO Writtinng involves crafting content that's optimized for search engines while engaging readers.
+            I balance keyword intergration with compelling narratives to boost visibility without compromising quality.
           </p>
         </div>
         <div className={classes.app}>
